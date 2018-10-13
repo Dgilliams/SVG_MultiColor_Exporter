@@ -3,7 +3,7 @@ A small yet useful PowerShell script built for saving time exporting the same SV
 
 This was made specifically for exporting assets for the [Gitcoin Avatar Generator](https://github.com/gitcoinco/web) but it can be used to quickly make copies of any .svg into appropriately named color files. 
 
-(Watch it in action!) [https://www.youtube.com/watch?v=dfM_2emAa_Y&feature=youtu.be]
+[Watch it in action!](https://www.youtube.com/watch?v=dfM_2emAa_Y&feature=youtu.be)
 
 ## How to use:
 1. make an incredible SVG hair asset and make it Ginger Red! (#ED2027) 
@@ -22,8 +22,7 @@ This was made specifically for exporting assets for the [Gitcoin Avatar Generato
 5. set the execution policy to allow unsigned scripts with the Command (we will revert the settings when we are done)
   - run this command in the Powershell
   ```Set-ExecutionPolicy -ExecutionPolicy Unrestricted```
-  - (read more) [https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-6&viewFallbackFrom=powershell-Microsoft.PowerShell.Core]
-  
+  - [read more](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-6&viewFallbackFrom=powershell-Microsoft.PowerShell.Core)  
   
 6. navigate to the empty directory you want your assets in. Use the dir and cd commands explained above.
   -  ex: ```"cd C:\_DamosDesignsLLC\Gitcoin\temp_asset_folder"```
