@@ -30,7 +30,7 @@ This was made specifically for exporting assets for the [Gitcoin Avatar Generato
 7. drag and drop the .svg you want to use into this directory using the file explorer
 
 8. run this command in Powershell
-  - ```.\export_all_colors.ps1```
+    - ```.\export_all_colors.ps1```
 
 9. MAGIC!!!!
 
