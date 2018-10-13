@@ -1,5 +1,5 @@
-$colorToReplace = 'ed2027'
-$colors = @("000000","4E3521","8C3B28","B28E28","F4EA6E","F0E6FF","4D22D2","8E2ABE","3596EC","0ECF7C")
+$colorToReplace = 'ED2027'
+$colors = @("000000","4E3521","8C3B28","B28E28","F4EA6E","F0E6FF","4D22D2","8E2ABE","3596EC","0ECF7C","ED2027")
 
 $files = Get-ChildItem -Path $PSScriptRoot
 
