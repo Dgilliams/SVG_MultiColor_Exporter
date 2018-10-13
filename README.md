@@ -38,4 +38,4 @@ This was made specifically for exporting assets for the [Gitcoin Avatar Generato
 
 11. When you're done, don't forget to change your security policy back to the default!
 
-```Set-ExecutionPolicy -ExecutionPolicy Restricted```
+    - ```Set-ExecutionPolicy -ExecutionPolicy Restricted```
