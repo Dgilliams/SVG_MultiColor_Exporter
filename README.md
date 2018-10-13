@@ -32,3 +32,6 @@ This was made specifically for exporting assets for the [Gitcoin Avatar Generato
 - ```.\export_all_colors.ps1```
 
 9. MAGIC!!!!
+
+10. When you're done, don't forget to change your security policy back to the default!
+  ```Set-ExecutionPolicy -ExecutionPolicy Restricted```
