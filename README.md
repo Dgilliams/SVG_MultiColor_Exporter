@@ -3,6 +3,8 @@ A small yet useful PowerShell script built for saving time exporting the same SV
 
 This was made specifically for exporting assets for the [Gitcoin Avatar Generator](https://github.com/gitcoinco/web) but it can be used to quickly make copies of any .svg into appropriately named color files. 
 
+[Watch it in action!] (https://www.youtube.com/watch?v=dfM_2emAa_Y&feature=youtu.be)
+
 ## How to use:
 1. make an incredible SVG hair asset and make it Ginger Red! (#ED2027) 
   - you can change the value of the `$colorToReplace` variable to any start color on line 1
