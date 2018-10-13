@@ -37,4 +37,5 @@ This was made specifically for exporting assets for the [Gitcoin Avatar Generato
 10. move your new color changed and renamed file to another directory! This script currently only supports changing one svg asset at a time. If you put more than one svg in the directory before running the script, you'll end up with the same asset repeated. 
 
 11. When you're done, don't forget to change your security policy back to the default!
+
 ```Set-ExecutionPolicy -ExecutionPolicy Restricted```
