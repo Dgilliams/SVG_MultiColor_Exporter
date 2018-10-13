@@ -8,7 +8,7 @@ This was made specifically for exporting assets for the [Gitcoin Avatar Generato
 ## How to use:
 1. make an incredible SVG hair asset and make it Ginger Red! (#ED2027) 
   - you can change the value of the `$colorToReplace` variable to any start color on line 1
-  - you can change the colors the script will output by changing the hexidecimal numbers in the `$colors` array on line 2
+  - you can change the colors the script will output by changing the hexadecimal numbers in the `$colors` array on line 2
   
 2. install windows powershell if you dont have it
   - common powershell commands you will use
