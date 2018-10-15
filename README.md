@@ -1,19 +1,37 @@
 # SVG_MultiColor_Exporter
-A small yet useful PowerShell script built for saving time exporting the same SVG into multiple appropriately named color files. 
+
+Two scripts built for saving time exporting SVG into multiple appropriately named color files. 
+
+They parse the SVG files in the script's directory and replace all instances of the specified color. 
 
 This was made specifically for exporting assets for the [Gitcoin Avatar Generator](https://github.com/gitcoinco/web) but it can be used to quickly make copies of any .svg into appropriately named color files. 
 
+# Python Version 
+## How to use
+1. Make a SVG with the color you want to change set to #ED2027
+1. download color_exporter.py
+2. put color_exporter.py in a new empty directory
+3. place all SVG to export in the same directory
+4. open terminal and navigate to that same directory
+    terminal navigation commands
+    - `ls` : list files in current directory
+    - `cd <newDirectory>` : "change directory" to the newDirectory
+5. run command ```python color_exporter.py```
+6. Magic! All of your colored SVG files should be generated alongside the original in the directory
+
+
+# Powershell Version (Windows only)
 [Watch it in action!](https://www.youtube.com/watch?v=dfM_2emAa_Y&feature=youtu.be)
 
 ## How to use:
-1. make an incredible SVG hair asset and make it Ginger Red! (#ED2027) 
+1. make an incredible SVG asset and make it Ginger Red! (#ED2027) 
     - you can change the value of the `$colorToReplace` variable to any hexadecimal start color on line 1
     - you can change the SVG color output by changing the hexadecimal numbers in the `$colors` array on line 2
   
 2. install windows powershell if you dont have it
     - common powershell commands you will use
-      - `dir` - "current directory" shows you all the files in the current directory
-      - `cd <newDirectory>` - "change directory" to newDirectory
+      - `dir` : "current directory" shows you all the files in the current directory
+      - `cd <newDirectory>` - "change directory" to the newDirectory
 
 3. download "export_all_colors.ps1" script and place in an empty folder
 
