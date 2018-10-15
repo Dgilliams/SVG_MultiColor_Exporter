@@ -1,7 +1,7 @@
 import os
 import fileinput
 
-# authored by Damien Gilliams of www.DamosDesigns.com on 10/15/2018
+#authored by Damien Gilliams of DamosDesigns.com on 10/15/2018
 
 print ("\n\n~~~Start of Program~~~\n")
 
@@ -21,18 +21,21 @@ for root, dirs, files in os.walk("."):
             # make sure color exists in file
             if svgData.find(originalColor) == -1:
                 print ("ERROR: Change fill color of " + filename + " to #ED2027 for script to work")
-                break
+                continue
+
+            newDirectory = os.path.splitext(filename)[0] + "_assets"
+            os.makedirs(newDirectory, exist_ok=True)
 
             for newColor in newColors:
 
                 newSvgFileData = svgData.replace(originalColor, newColor)
 
                 newFileName = os.path.splitext(filename)[0] + "_" + newColor
-                newFile = open(newFileName + ".svg", 'w')
+                newFile = open(newDirectory + "/" + newFileName + ".svg", 'w')
                 newFile.write(newSvgFileData)
                 newFile.close
 
-                print (newFileName)
+                print (newFileName + " was generated")
 
         # output replaced results to new file
 
