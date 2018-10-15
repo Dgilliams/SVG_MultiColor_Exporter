@@ -19,6 +19,11 @@ This was made specifically for exporting assets for the [Gitcoin Avatar Generato
 5. run command ```python color_exporter.py```
 6. Magic! All of your colored SVG files should be generated alongside the original in the directory
 
+## Python and Windows
+- If this is your first python script, you'll need to install python and add an environment variable
+    - https://www.python.org/downloads/
+    - https://docs.python.org/3/using/windows.html
+        - >To permanently modify the default environment variables, click Start and search for ‘edit environment variables’, or open System properties, Advanced system settings and click the Environment Variables button. In this dialog, you can add or modify User and System variables. To change System variables, you need non-restricted access to your machine (i.e. Administrator rights).```
 
 # Powershell Version (Windows only)
 [Watch it in action!](https://www.youtube.com/watch?v=dfM_2emAa_Y&feature=youtu.be)
