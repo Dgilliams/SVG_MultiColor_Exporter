@@ -30,7 +30,7 @@ for root, dirs, files in os.walk("."):
 
                 newSvgFileData = svgData.replace(originalColor, newColor)
 
-                newFileName = os.path.splitext(filename)[0] + "_" + newColor
+                newFileName = os.path.splitext(filename)[0] + "-" + newColor
                 newFile = open(newDirectory + "/" + newFileName + ".svg", 'w')
                 newFile.write(newSvgFileData)
                 newFile.close
