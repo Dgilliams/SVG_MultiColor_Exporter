@@ -1,7 +1,7 @@
 import os
 import fileinput
 
-#authored by Damien Gilliams of DamosDesigns.com on 10/15/2018
+#authored by Damien Gilliams and Guled Abdilahi on 10/15/2018
 
 print ("\n\n~~~Start of Program~~~\n")
 
